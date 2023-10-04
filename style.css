@@ -30,44 +30,7 @@ button {
 body {
   min-height: 100vh;
   font-weight: 400;
-  font-size: 16px;
   line-height: 1;
-  font-family: "DM sans", sans-serif;
-  background-color: #000227;
+  font-family: "Epilogue", sans-serif;
   padding: 20px;
 }
-.boxed {
-  height: 200px;
-  /* width: 200px; */
-  /* width: min(500px, 100%); */
-  /* width: min(200px, 895px); */
-  /* width: min(value1, value2) */
-  /* width: max(value1, value2); */
-  /* width: max(100%, 320px); */
-  /* width: max(500px, 1400px); */
-  /* width: max(500px, 442px); */
-  /* width: clamp(min, between, max); */
-  width: clamp(300px, 50vw, 500px);
-  /* width: max(500px, min(50vw, 100%)) */
-  /* width: max(500px, min(720px, 1400px)) */
-  /* width: max(500px, 720px) */
-  /* width: 720px */
-  background-image: linear-gradient(to right, #2cccff, #20e3b2);
-  border-radius: 8px;
-}
-/* @media screen and (max-width: 767.98px) {
-  .boxed {
-    width: 100%;
-  }
-} */
-.heading {
-  color: white;
-  font-size: clamp(1.25rem, 1.08rem + 0.895vw, 1.875rem);
-  font-weight: bold;
-  line-height: 1.5;
-}
-/* @media screen and (max-width: 767.98px) {
-  .heading {
-    font-size: 20px;
-  }
-} */
